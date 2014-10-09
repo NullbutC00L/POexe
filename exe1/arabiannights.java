@@ -5,7 +5,7 @@ public class arabiannights
 	public static void main(String[] args)
 	{
 		MagicLamp lamp = new MagicLamp(4);
-		Genie [] genies= new Genie[5];
+		Genio [] genies= new Genio[5];
 		genies[0]=lamp.rub(2);
 		genies[1]=lamp.rub(3);
 		genies[2]=lamp.rub(4);
@@ -26,7 +26,7 @@ public class arabiannights
 			System.out.println (genies[i].toString()); 
 		}
 		lamp.feedDemon((RecyclableDemon)genies[4]);
-		Genie genie = lamp.rub(7);
+		Genio genie = lamp.rub(7);
 		System.out.print(genie.toString()+"\n");
 
 
